@@ -21,245 +21,171 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+        "In JavaScript, what's the difference between call and apply method?": [
+            "call takes arguments whereas apply takes an array of arguments",
+            "apply takes an array of arguments whereas call takes arguments ",
+            "they are the same except names",
+            "apply is deprecated"
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+        "Which object is bind function defined?": [
+            "Function prototype",
+            "Function",
+            "Object",
+            "Global object"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+        "What is the first parameter of bind for?": [
+            "The execution context",
+            "The first parameter of the original function",
+            "The last parameter of the original function",
+            "It does not take any parameters"
         ]
     },
     {
-        "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be:": [
-            "Girls",
-            "Boys",
-            "Girls and boys",
-            "No way to tell"
+        "What value would be returned when accessing a nonexist property of an object?": [
+            "Undefined",
+            "Null",
+            "zero",
+            "A empty string"
         ]
     },
     {
-        "What do Reindeer eat?": [
-            "Lichen",
-            "Grasses",
-            "Leaves",
-            "Berries"
+        "Which of the following method should be used to check if a property belongs to an object?": [
+            "The hasOwnProperty method",
+            "getOwnPropertyNames",
+            "get property of",
+            "is prototype of"
         ]
     },
     {
-        "What of the following is not true?": [
-            "Caribou live on all continents",
-            "Both reindeer and Caribou are the same species",
-            "Caribou are bigger than reindeer",
-            "Reindeer live in Scandinavia and Russia"
+        "Which of the following method should be used to check if new properties can be added to an object?": [
+            "The isExtensible method of Object",
+            "The preventExtensions method of Object",
+            "The isSealed method of Object",
+            "The isFrozen method of Object"
         ]
     },
     {
-        "In what year did Rudolph make his television debut?": [
-            "1964",
-            "1979",
-            "2000",
-            "1956"
+        "Which method is to serialize an object?": [
+            "the stringify method of JSON object",
+            "the parse method of JSON object",
+            "the serialize method of JSON object",
+            "the marshall method of JSON object"
         ]
     },
     {
-        "Who was the voice of Rudolph in the 1964 classic?": [
-            "Billie Mae Richards",
-            "Burl Ives",
-            "Paul Soles",
-            "Lady Gaga"
+        "Which of the following is not a built-in type in JavaScript?": [
+            "XML",
+            "Number",
+            "String",
+            "Boolean"
         ]
     },
     {
-        "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-            "Montgomery Ward",
-            "Sears",
-            "Macys",
-            "Kmart"
+        "Which of the following is a built-in data structure in JavaScript?": [
+            "associative array",
+            "hash map",
+            "balanced binary tree",
+            "trie"
         ]
     },
     {
-        "Santa's reindeer named Donner was originally named what?": [
-            "Dunder",
-            "Donny",
-            "Dweedle",
-            "Dreamy"
+        "Which programming paradigm JavaScript does not support ?": [
+            "Class based inheritance",
+            "Functional programming",
+            "Prototype based inheritance",
+            "imperative programming"
         ]
     },
     {
-        "Who invented the story of Rudolph?": [
-            "Robert May",
-            "Johnny Marks",
-            "Santa",
-            "J.K. Rowling"
+        "How does JavaScript define a class prior to ECMAScript 2015?": [
+            "use a constructor which in turn define a class",
+            "use the class key word",
+            "use the object key word",
+            "JavaScript does not support object oriented programming "
         ]
     },
     {
-        "In what location will you not find reindeer?": [
-            "North Pole",
-            "Lapland",
-            "Korvatunturi mountain",
-            "Finland"
+        "Which of the following is server side JavaScript framework?": [
+            "NodeJS",
+            "AngularJS",
+            "ReactJS",
+            "ReactNative"
         ]
     },
     {
-        "What Makes Santa's Reindeer Fly?": [
-            "Magical Reindeer Dust",
-            "Fusion",
-            "Amanita muscaria",
-            "Elves"
+        "Which of the following is not a testing framework for JavaScript?": [
+            "AngularJS",
+            "MochaJS",
+            "JasmineJS",
+            "Karma"
         ]
     },
     {
-        "Including Rudolph, how many reindeer hooves are there?": [
-            "36",
-            "24",
-            "16",
-            "8"
+        "Whih of the following is not a JavaScript engine?": [
+            "CUDA",
+            "NashHorn",
+            "Rhino",
+            "V8"
         ]
     },
     {
-        "Santa only has one female reindeer. Which one is it?": [
-            "Vixen",
-            "Clarice",
-            "Cupid",
-            "Cupid"
+        "Which of the following is a new feature for asynchronous programming in ECMAScript 2015?": [
+            "Promise",
+            "Deferred",
+            "Future",
+            "Actor"
         ]
     },
     {
-        "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-            "Sam",
-            "Frosty",
-            "Burl",
-            "Snowy"
+        "Which of the following is not a feature of JavaScript?": [
+            "static typing",
+            "Closure",
+            "Lexical Scoping",
+            "anonymouse function"
         ]
     },
     {
-        "What was Rudolph's father's name?": [
-            "Donner",
-            "Dasher",
-            "Blixen",
-            "Comet"
+        "Which of the following data structure is not included in ECMAScript 2015?": [
+            "persistent list",
+            "Map",
+            "Set",
+            "WeakMap"
         ]
     },
     {
-        "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-            "Comet",
-            "Blixen",
-            "Donner",
-            "Dasher"
+        "Which of the following is not supported in ECMAScript 2015?": [
+            "async function",
+            "promise",
+            "generator",
+            "iterator"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-            "Fireball",
-            "Clarice",
-            "Jumper",
-            "Vixen"
+        "Which of the for loops works with iterator in ECMAScript 2015?": [
+            "for of loop",
+            "for loop",
+            "for in loop",
+            "no for loop supports iterator"
         ]
     },
     {
-        "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-            "Black mud",
-            "Bag",
-            "Pillow case",
-            "Sock"
+        "Which of the following is a JavaScript transpiler?": [
+            "Babel",
+            "Gulp",
+            "NodeJS",
+            "Express"
         ]
     },
     {
-        "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-            "Dentist",
-            "Reindeer",
-            "Toy maker",
-            "Candlestick maker"
-        ]
-    },
-    {
-        "In the 1964 movie,what was the Bumble's one weakness?": [
-            "Could not swim",
-            "Always hungry",
-            "Candy canes",
-            "Cross eyed"
-        ]
-    },
-    {
-        "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-            "Peppermint",
-            "Gold",
-            "India",
-            "Polar Bears"
-        ]
-    },
-    {
-        "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-            "Square wheels",
-            "No Engine",
-            "Paint does not match",
-            "It does not toot"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the Jack in the Box?": [
-            "Charlie",
-            "Sam",
-            "Billy",
-            "Jack"
-        ]
-    },
-    {
-        "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-            "Storm",
-            "No snow",
-            "No toys",
-            "The Reindeer were sick"
-        ]
-    },
-    {
-        "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-            "Oink",
-            "Growl",
-            "Bark",
-            "Meow"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the prospector?": [
-            "Yukon Cornelius",
-            "Slider Sam",
-            "Bumble",
-            "Jack"
-        ]
-    },
-    {
-        "How far do reindeer travel when they migrate?": [
-            "3000 miles",
-            "700 miles",
-            "500 miles",
-            "0 miles"
-        ]
-    },
-    {
-        "How fast can a reindeer run?": [
-            "48 miles per hour",
-            "17 miles per hour",
-            "19 miles per hour",
-            "14 miles per hour"
+        "Which of the following is not a promise library?": [
+            "underscore",
+            "Q",
+            "blue bird",
+            "ES6 promise"
         ]
     }
 ];
@@ -275,9 +201,10 @@ exports.handler = function (event, context) {
          * prevent someone else from configuring a skill that sends requests to this function.
          */
 
-//     if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.05aecccb3-1461-48fb-a008-822ddrt6b516") {
-//         context.fail("Invalid Application ID");
-//      }
+         if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.df836b49-bdb6-496b-a6b1-381f9a43d8bc"
+       && event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.df4667da-5db3-4221-bb8f-66c0e1c90f76") {
+             context.fail("Invalid Application ID");
+          }
 
         if (event.session.new) {
             onSessionStarted({requestId: event.request.requestId}, event.session);
@@ -385,7 +312,7 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 var ANSWER_COUNT = 4;
 var GAME_LENGTH = 5;
-var CARD_TITLE = "Trivia"; // Be sure to change this for your skill.
+var CARD_TITLE = "JavaScript Master"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
@@ -649,4 +576,3 @@ function buildResponse(sessionAttributes, speechletResponse) {
         response: speechletResponse
     };
 }
-
